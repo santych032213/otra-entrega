@@ -53,6 +53,9 @@ header .container img {
   height: 240px;
   background-color: rgb(211, 69, 69);
 }
+.navBar-2 a button {
+  border-radius: 8px;
+}
 .navBar-2 a button img {
   width: 30px;
   height: 30px;
