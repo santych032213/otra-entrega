@@ -1,4 +1,43 @@
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+}
 
+/*probando*/
+header .container {
+  text-align: center;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+header .container img {
+  width: 790px;
+}
+
+.navBar-1 {
+  gap: 1.25rem;
+  list-style: none;
+  margin-top: 1.875rem;
+  margin-bottom: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.navBar-1 li {
+  font-size: 16px;
+}
+.navBar-1 li a {
+  text-decoration: none;
+  color: black;
+}
+.navBar-1 li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
-
