@@ -1,0 +1,63 @@
+.titulos{
+    h2{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 60px;
+            font-family:titulo;
+            a{
+                color: rgb(216, 113, 180);
+                text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                font-size: 61px;
+            }
+        }
+    }
+}
+
+.tituloNovedades{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 60px;
+            font-family:titulo;
+            color: rgb(216, 113, 180);
+}
+
+.carousel-item img{
+    border-radius: 15px;
+}
+
+h2{
+    color: map-get($colores, color2);
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: font-h2;
+    font-weight: bold;
+    margin-top: 60px;
+}
+h3{
+    color: map-get($colores, color3);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    &::first-letter{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+}
+p{
+    font-style: italic;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cont-img{
+    width: 50vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    .novedades1{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
