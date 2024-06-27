@@ -27,6 +27,7 @@ header .container img {
   text-align: center;
   margin-top: 60px;
   font-size: 60px;
+  font-weight: lighter;
   font-family: titulo;
 }
 .titulos h2 a {
@@ -41,6 +42,7 @@ header .container img {
 .tituloNovedades {
   text-align: center;
   margin-top: 60px;
+  font-weight: lighter;
   font-size: 60px;
   font-family: titulo;
   color: rgb(216, 113, 180);
@@ -68,6 +70,15 @@ h3 {
 h3::first-letter {
   font-size: 40px;
   margin-bottom: 0px;
+}
+
+.Conta {
+  font-style: italic;
+}
+.Conta h4 {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
