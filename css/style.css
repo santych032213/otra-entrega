@@ -42,6 +42,7 @@ header .container img {
 .tituloNovedades {
   text-align: center;
   margin-top: 60px;
+  margin-bottom: 30px;
   font-weight: lighter;
   font-size: 60px;
   font-family: titulo;
@@ -148,6 +149,38 @@ p {
 .navBar-2 a button img {
   width: 30px;
   height: 30px;
+}
+
+.masc-flex {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.masc-flex .masc1-flex {
+  width: 50%;
+  height: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.25rem;
+}
+.masc-flex .masc1-flex img {
+  width: 18.75rem;
+  height: 18.75rem;
+}
+.masc-flex .masc1-flex h2 {
+  font-size: 24px;
+}
+.masc-flex .masc1-flex h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.masc-flex .masc1-flex p {
+  font-size: 12px;
+  margin-top: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

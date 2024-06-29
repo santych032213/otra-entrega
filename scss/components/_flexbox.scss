@@ -1,0 +1,26 @@
+.masc-flex{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    .masc1-flex{
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        @include flex(row, nowrap, flex-start, center, 1.25rem);
+        img{
+            width: 18.75rem;
+            height: 18.75rem;
+        }
+        h2{
+            font-size: 24px;
+        }
+        h3{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+        p{
+            font-size: 12px;
+            margin-top: 0px;
+        }
+    }
+    }
