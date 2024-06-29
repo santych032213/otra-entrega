@@ -1,8 +1,5 @@
 .fem-Grid{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 25% 24.5% 25% 25.5%;
-    grid-template-rows: repeat(3, 1fr);
+    @include grid(100%, 25% 24.5% 25% 25.5%, repeat(3, 1fr));
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -18,14 +15,14 @@
     grid-column: 2/3;
     grid-row: 1/2;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }
 .item3{
@@ -40,14 +37,14 @@
     grid-column: 4/5;
     grid-row: 1/2;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }
 .item5{
@@ -62,14 +59,14 @@
     grid-column: 2/3;
     grid-row: 2/3;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }
 .item7{
@@ -84,14 +81,14 @@
     grid-column: 4/5;
     grid-row: 2/3;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }
 
@@ -108,14 +105,14 @@
     grid-column: 2/3;
     grid-row: 3/4;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }
 .item11{
@@ -130,13 +127,13 @@
     grid-column: 4/5;
     grid-row: 3/4;
     h2{
-        font-size: 24px;
+        font-size: map-get($medidas, lg);
         margin-bottom: 10px;
     }
     h3{
-        font-size: 16px;
+        font-size: map-get($medidas, m);
     }
     p{
-        font-size: 12px;
+        font-size: map-get($medidas, sm);
     }
 }

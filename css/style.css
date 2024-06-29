@@ -172,14 +172,14 @@ p {
   height: 18.75rem;
 }
 .masc-flex .masc1-flex h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .masc-flex .masc1-flex h3 {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0px;
 }
 .masc-flex .masc1-flex p {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-top: 0px;
 }
 
@@ -206,14 +206,14 @@ p {
   grid-row: 1/2;
 }
 .item2 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item2 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item2 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .item3 {
@@ -230,14 +230,14 @@ p {
   grid-row: 1/2;
 }
 .item4 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item4 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item4 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .item5 {
@@ -254,14 +254,14 @@ p {
   grid-row: 2/3;
 }
 .item6 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item6 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item6 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .item7 {
@@ -278,14 +278,14 @@ p {
   grid-row: 2/3;
 }
 .item8 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item8 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item8 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .item9 {
@@ -302,14 +302,14 @@ p {
   grid-row: 3/4;
 }
 .item10 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item10 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item10 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .item11 {
@@ -326,14 +326,14 @@ p {
   grid-row: 3/4;
 }
 .item12 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .item12 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .item12 p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */

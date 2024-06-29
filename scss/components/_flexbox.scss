@@ -12,14 +12,14 @@
             height: 18.75rem;
         }
         h2{
-            font-size: 24px;
+            font-size: map-get($medidas, lg);
         }
         h3{
-            font-size: 16px;
+            font-size: map-get($medidas, m);
             margin-bottom: 0px;
         }
         p{
-            font-size: 12px;
+            font-size: map-get($medidas, sm);
             margin-top: 0px;
         }
     }
