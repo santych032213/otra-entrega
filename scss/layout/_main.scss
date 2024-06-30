@@ -2,7 +2,7 @@
     h2{
             text-align: center;
             margin-top: 60px;
-            font-size: 60px;
+            font-size: map-get($medidas, xxxl);
             font-weight: lighter;
             font-family:titulo;
             a{
@@ -21,7 +21,7 @@
             margin-top: 60px;
             margin-bottom: 30px;
             font-weight: lighter;
-            font-size: 60px;
+            font-size: map-get($medidas, xxxl);
             font-family:titulo;
             color: $color-titulos;
 }
@@ -32,6 +32,7 @@
 
 h2{
     color: map-get($colores, color2);
+    font-size: map-get($medidas, lg);
     text-align: center;
     margin-bottom: 15px;
     font-family: font-h2;
@@ -40,11 +41,12 @@ h2{
 }
 h3{
     color: map-get($colores, color3);
+    font-size: map-get($medidas, m);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     &::first-letter{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 }
@@ -58,6 +60,7 @@ h3{
 }
 p{
     font-style: italic;
+    font-size: map-get($medidas, s);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;

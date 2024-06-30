@@ -11,16 +11,5 @@
             width: 18.75rem;
             height: 18.75rem;
         }
-        h2{
-            font-size: map-get($medidas, lg);
-        }
-        h3{
-            font-size: map-get($medidas, m);
-            margin-bottom: 0px;
-        }
-        p{
-            font-size: map-get($medidas, sm);
-            margin-top: 0px;
-        }
     }
-    }
+}

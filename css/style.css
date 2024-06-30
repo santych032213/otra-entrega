@@ -26,7 +26,7 @@ header .container img {
 .titulos h2 {
   text-align: center;
   margin-top: 60px;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: lighter;
   font-family: titulo;
 }
@@ -44,7 +44,7 @@ header .container img {
   margin-top: 60px;
   margin-bottom: 30px;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-family: titulo;
   color: rgb(216, 113, 180);
 }
@@ -55,6 +55,7 @@ header .container img {
 
 h2 {
   color: darkgreen;
+  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 15px;
   font-family: font-h2;
@@ -64,12 +65,13 @@ h2 {
 
 h3 {
   color: rgba(0, 100, 0, 0.74);
+  font-size: 1rem;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
 h3::first-letter {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 0px;
 }
 
@@ -143,10 +145,10 @@ p {
   background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #9b9be5, #9b9be8, #9c9cec, #b491e9, #cd82df, #e672cf, #fb5fb7);
   margin-top: 50px;
 }
-.navBar-2 a button {
+.navBar-2 a {
   border-radius: 8px;
 }
-.navBar-2 a button img {
+.navBar-2 a img {
   width: 30px;
   height: 30px;
 }
@@ -170,17 +172,6 @@ p {
 .masc-flex .masc1-flex img {
   width: 18.75rem;
   height: 18.75rem;
-}
-.masc-flex .masc1-flex h2 {
-  font-size: 1.5rem;
-}
-.masc-flex .masc1-flex h3 {
-  font-size: 1rem;
-  margin-bottom: 0px;
-}
-.masc-flex .masc1-flex p {
-  font-size: 0.75rem;
-  margin-top: 0px;
 }
 
 .fem-Grid {
@@ -347,138 +338,122 @@ p {
     height: 215px;
   }
 }
-@media (max-width: 993px) {
-  .prin-femynov {
-    width: 690px;
-    height: 240px;
-  }
-  .responsive1 .navBar {
-    width: 100%;
-    height: 170px;
+@media (max-width: 996px) {
+  footer .navBar-2 {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    grid-template-columns: repeat 11, 1fr;
+    grid-template-rows: 1fr;
+    height: 215px;
     align-items: center;
+    justify-self: center;
   }
-  .iframe1 {
-    width: 300px;
-    height: 170px;
+  footer .navBar-2 .iframe1 {
+    width: 100%;
+    height: 215px;
     grid-column: 1/4;
-    grid-row: 1/4;
   }
-  .a1 {
+  footer .navBar-2 .iframe2 {
+    width: 100%;
+    height: 215px;
+    grid-column: 9/12;
+  }
+  footer .navBar-2 .a1 {
     grid-column: 4/5;
-    grid-row: 1/2;
+    align-self: flex-end;
   }
-  .a2 {
-    grid-column: 6/7;
-    grid-row: 1/2;
-  }
-  .a3 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-  }
-  .a4 {
-    grid-column: 6/7;
-    grid-row: 2/3;
-  }
-  .a5 {
+  footer .navBar-2 .a2 {
     grid-column: 5/6;
-    grid-row: 3/4;
+    align-self: flex-end;
   }
-  .iframe2 {
-    width: 300px;
-    height: 170px;
-    grid-column: 7/10;
-    grid-row: 1/4;
+  footer .navBar-2 .a3 {
+    grid-column: 6/7;
+    align-self: flex-end;
   }
-  .botonSubir {
-    padding: 15px;
-    color: brown;
+  footer .navBar-2 .a4 {
+    grid-column: 7/8;
+    align-self: flex-end;
+  }
+  footer .navBar-2 .a5 {
+    grid-column: 8/9;
+    align-self: flex-end;
   }
 }
-@media (max-width: 500px) {
-  .tituloNovedades {
-    text-align: center;
-    font-size: 35px;
-    font-family: titulo;
-    color: rgb(216, 113, 180);
-    margin-bottom: 1px;
-  }
-  article {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  .navBar-1 {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    color: darkgreen;
-    text-align: center;
-    margin-bottom: 2px;
-  }
-  .prin-femynov {
-    width: 400px;
-    height: 160px;
-  }
-  .responsive1 .navBar {
-    width: 100%;
-    height: 400px;
+/*.prin-femynov{
+    width: 690px;
+    height: 240px;
+}
+
+.botonSubir{
+    padding: 15px;
+    color: brown;
+}*/
+@media (max-width: 770px) {
+  footer .navBar-2 {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr;
-    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat 9, 1fr;
+    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 1fr;
+    height: 215px;
   }
-  .iframe1 {
-    width: 330px;
-    height: 160px;
-    grid-column: 2/9;
-    grid-row: 3/6;
-    align-items: center;
+  footer .navBar-2 .iframe1 {
+    width: 100%;
+    height: 185px;
+    grid-column: 1/5;
+    grid-row: 3/10;
+    justify-self: center;
   }
-  .a1 {
+  footer .navBar-2 .iframe2 {
+    width: 100%;
+    height: 185px;
+    grid-column: 6/10;
+    grid-row: 3/10;
+    justify-self: center;
+  }
+  footer .navBar-2 .a1 {
     grid-column: 3/4;
     grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
-  .a2 {
+  footer .navBar-2 .a2 {
     grid-column: 4/5;
     grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
-  .a3 {
+  footer .navBar-2 .a3 {
     grid-column: 5/6;
     grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
-  .a4 {
+  footer .navBar-2 .a4 {
     grid-column: 6/7;
     grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
-  .a5 {
+  footer .navBar-2 .a5 {
     grid-column: 7/8;
     grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
   }
-  .iframe2 {
-    width: 330px;
-    height: 160px;
-    grid-column: 2/9;
-    grid-row: 7/10;
-    align-items: center;
+  .titulos h2 {
+    font-size: 3rem;
   }
-  .botonSubir {
-    padding: 10px;
-    color: brown;
+  .tituloNovedades {
+    font-size: 3rem;
   }
-  footer {
-    margin-top: 20px;
+  h2 {
+    font-size: 1.25rem;
   }
-  .masculinas {
-    width: 15.625rem;
-    height: 15.625rem;
+  h3 {
+    font-size: 0.75rem;
   }
-  .novedades1 {
-    width: 400px;
-    height: 160px;
+  p {
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 375px) {
