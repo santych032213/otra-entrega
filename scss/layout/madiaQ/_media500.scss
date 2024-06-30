@@ -1,0 +1,174 @@
+@media(max-width:500px){
+    footer{
+        .navBar-2{
+            @include grid(100%, repeat (7, 1fr), 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr);
+            height: 400px;
+            .iframe1{
+                width: 375px;
+                height: 170px;
+                grid-column: 1/8;
+                grid-row: 3/6;
+                align-items: center;
+            }
+            .iframe2{
+                width: 375px;
+                height: 170px;
+                grid-column: 1/8;
+                grid-row: 7/10;
+                align-items: center;
+            }
+            .a1{
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            .a2{
+                grid-column: 3/4;
+                grid-row: 1/2;
+            }
+            .a3{
+                grid-column: 4/5;
+                grid-row: 1/2;
+            }
+            .a4{
+                grid-column: 5/6;
+                grid-row: 1/2;
+            }
+            .a5{
+                grid-column: 6/7;
+                grid-row: 1/2;
+            }
+        }
+        .logoWhatsapp{
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+        .subir{
+            a{
+                img{
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+
+
+    main{
+        .titulos{
+            h2{
+            font-size: map-get($medidas, 32);
+            }
+            h1{
+                font-size:map-get($medidas, 32);
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        }
+        .tituloNovedades{
+            font-size: map-get($medidas, 32);
+            margin-top: 20px;
+        }
+        article{
+            margin-bottom: 40px;
+        }
+        h2{ 
+            font-size: map-get($medidas, 16);
+            margin-top: 20px;
+        }
+        h3{
+            font-size: map-get($medidas, 12);
+        }
+        p{
+            font-size: map-get($medidas, 10);
+        }
+    }
+    header{
+        .navBar-1{
+            li{
+                font-size: map-get($medidas, 14);
+            }
+        }
+    }
+}
+
+
+
+
+
+/*@media(max-width:375px){
+    header{
+        display: flex;
+        width: 100%;
+        height: 150px;
+    }
+    .prin-femynov{
+        width: 100%;
+        height: 120px;
+        margin-right: 125px ;
+        margin-top: 0px;
+    }
+    .navBar-1{
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }        
+    .botNav{
+        padding: 3px 16px;
+        border-radius: 5px 5px 20px 5px;
+        font-size: .75rem;
+    }
+    .botNav1{
+        padding: 3px 32px;
+        border-radius: 5px 5px 20px 5px;
+        font-size: .75rem;
+    }
+    .botNav2{
+        padding: 3px 12px;
+        border-radius: 5px 5px 20px 5px;
+        font-size: .75rem;
+    }
+    .masculinas{
+        width: 13.75rem;
+        height: 13.75rem;
+    }
+    .novedades1{
+        width: 21.25rem;
+        height: 10rem;
+    }
+    .tituloNovedades{
+        text-align: center;
+        font-size: 32px;
+        font-family:titulo;
+        color: rgb(216, 113, 180);
+        margin-bottom: 1px;
+    }
+    article{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    h2{
+        color: darkgreen;
+        text-align: center;
+        margin-bottom: 0.5px;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: .75rem;
+    }
+    .botonSubir{
+        padding: 10px;
+        color: brown;
+    }
+}
+*/

@@ -1,8 +1,9 @@
 .titulos{
-    h2{
+    h1{
             text-align: center;
             margin-top: 60px;
-            font-size: map-get($medidas, xxxl);
+            margin-bottom: 30px;
+            font-size: map-get($medidas, 60);
             font-weight: lighter;
             font-family:titulo;
             a{
@@ -14,6 +15,9 @@
             }
         }
     }
+    h2{
+        @extend h1
+    }
 }
 
 .tituloNovedades{
@@ -21,7 +25,7 @@
             margin-top: 60px;
             margin-bottom: 30px;
             font-weight: lighter;
-            font-size: map-get($medidas, xxxl);
+            font-size: map-get($medidas, 60);
             font-family:titulo;
             color: $color-titulos;
 }
@@ -32,7 +36,7 @@
 
 h2{
     color: map-get($colores, color2);
-    font-size: map-get($medidas, lg);
+    font-size: map-get($medidas, 24);
     text-align: center;
     margin-bottom: 15px;
     font-family: font-h2;
@@ -41,7 +45,7 @@ h2{
 }
 h3{
     color: map-get($colores, color3);
-    font-size: map-get($medidas, m);
+    font-size: map-get($medidas, 20);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -60,7 +64,7 @@ h3{
 }
 p{
     font-style: italic;
-    font-size: map-get($medidas, s);
+    font-size: map-get($medidas, 16);
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;

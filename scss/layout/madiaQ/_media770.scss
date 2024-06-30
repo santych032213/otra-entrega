@@ -48,22 +48,57 @@
                 justify-self: center;
             }
         }
+        .logoWhatsapp{
+            a{
+                img{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        }
+        .subir{
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    
     }
-    .titulos{
+    
+    main{
+        .titulos{
+            h2{
+            font-size: map-get($medidas, 48);
+            }
+            h1{
+                font-size:map-get($medidas, 48);
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        }
+        .tituloNovedades{
+            font-size: map-get($medidas, 48);
+            margin-top: 30px;
+        }
+        article{
+            margin-bottom: 50px;
+        }
         h2{
-        font-size: map-get($medidas, xxl);        
+            font-size: map-get($medidas, 20);
+            margin-top: 30px;
+        }
+        h3{
+            font-size: map-get($medidas, 16);
+        }
+        p{
+            font-size: map-get($medidas, 12);
         }
     }
-    .tituloNovedades{
-        font-size: map-get($medidas, xxl);
-    }
-    h2{
-        font-size: map-get($medidas, l);
-    }
-    h3{
-        font-size: map-get($medidas, sm);
-    }
-    p{
-        font-size: map-get($medidas, xs);
+header{
+    .navBar-1{
+        margin-bottom: 0px;
+        }
     }
 }
