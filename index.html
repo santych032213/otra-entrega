@@ -13,8 +13,8 @@
         <div class="container">
             <img src="./assets/imagenes/Principal-Fem-Nov.webp" alt="">
         </div>
-            <nav class="container-fluid">
-                <ul class="navBar-1">
+            <nav>
+                <ul class="navBar-1 container-fluid">
                     <li>Inicio</li>
                     <li><a href=".//pages/Novedades.html">Novedades</a></li>
                     <li><a href=".//pages/Masculinas.html">Masculinas</a></li>
@@ -26,8 +26,9 @@
     <main>
         <section class="titulos">
             <h1><a href="./pages/Novedades.html">NOVEDADES</a></h2>
-            <div id="carousel" class="carousel slide w-50 m-auto">
-                <div class="carousel-inner">
+
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner cont-img">
                     <div class="carousel-item active">
                         <img src="./assets/imagenes/novedades1.png" class="d-block w-100" alt="...">
                     </div>
@@ -43,39 +44,39 @@
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon  btn btn-dark" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
         <section class="titulos">
             <h2><a href="./pages/Masculinas.html">Fragancias Masculinas</a></h2>
-            <div id="carousel2" class="carousel slide w-25 m-auto">
+            <div id="carousel2" class="carousel slide w-50 m-auto container" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./assets/imagenes/Masculinas1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/imagenes/Masculinas2.png" class="d-block w-100" alt="...">
+                        <img src="./assets/imagenes/Masculinas2.png" class="d-block w-100" alt="..." >
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/imagenes/Masculinas3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon btn btn-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="bot-car btn btn-dark">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="bot-car btn btn-dark">Siguiente</span>
                 </button>
             </div>
         </section>
         <section class="titulos">
             <h2><a href="./pages/Femeninas.html">Fragancias Femeninas</a></h2>
-            <div id="carousel3" class="carousel slide w-25 m-auto">
-                <div class="carousel-inner">
+            <div id="carousel3" class="carousel slide w-50 m-auto container" data-bs-ride="carousel">
+                <div class="carousel-inner container">
                     <div class="carousel-item active">
                     <img src="./assets/imagenes/Femeninas1.png" class="d-block w-100" alt="...">
                 </div>
@@ -87,12 +88,12 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon btn btn-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="bot-car btn btn-dark">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="bot-car btn btn-dark">Siguiente</span>
                 </button>
             </div>
         </section>
