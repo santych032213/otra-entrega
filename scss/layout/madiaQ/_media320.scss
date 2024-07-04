@@ -56,6 +56,21 @@
         }
     }
     main{
+        .masc-flex{
+            display: flex;
+            margin-top: 0px;
+            margin-bottom: 170px;
+            .masc1-flex{
+                width: 50%;
+                height: 200px;
+                text-align: left;
+                @include flex(column, nowrap, flex-start, center, 1.25rem);
+                img{
+                    width: 7.5rem;
+                    height: 7.5rem;
+                }
+            }
+        }
         .titulos{
             h2{
             font-size: map-get($medidas, 20);

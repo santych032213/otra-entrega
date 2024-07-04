@@ -289,6 +289,29 @@ p {
     width: 400px;
     height: 215px;
   }
+  main .masc-flex {
+    margin-right: 10px;
+  }
+  main .masc-flex {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  main .masc-flex .masc1-flex {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  main .masc-flex .masc1-flex img {
+    width: 17.5rem;
+    height: 17.5rem;
+  }
 }
 @media (max-width: 996px) {
   footer .navBar-2 {
@@ -391,6 +414,26 @@ p {
     width: 50px;
     height: 50px;
   }
+  main .masc-flex {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  main .masc-flex .masc1-flex {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  main .masc-flex .masc1-flex img {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
   main .titulos h2 {
     font-size: 3rem;
   }
@@ -470,6 +513,26 @@ p {
     width: 45px;
     height: 45px;
   }
+  main .masc-flex {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 180px;
+  }
+  main .masc-flex .masc1-flex {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  main .masc-flex .masc1-flex img {
+    width: 9.375rem;
+    height: 9.375rem;
+  }
   main .titulos h2 {
     font-size: 2rem;
   }
@@ -548,6 +611,26 @@ p {
   footer .subir a img {
     width: 35px;
     height: 35px;
+  }
+  main .masc-flex {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 170px;
+  }
+  main .masc-flex .masc1-flex {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  main .masc-flex .masc1-flex img {
+    width: 7.5rem;
+    height: 7.5rem;
   }
   main .titulos h2 {
     font-size: 1.25rem;

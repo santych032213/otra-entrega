@@ -10,4 +10,30 @@
             }
         }
     }
+    main{
+        .masc-flex{
+            margin-right: 10px;
+        }
+    }
+    main{
+        .masc-flex{
+            display: flex;
+            margin-top: 100px;
+            margin-bottom: 150px;
+            .masc1-flex{
+                width: 50%;
+                height: 200px;
+                text-align: left;
+                @include flex(row, nowrap, flex-start, center, 1.25rem);
+                img{
+                    width: 17.5rem;
+                    height: 17.5rem;
+                }
+            }
+        }
+    }
+
+
+
+
 }

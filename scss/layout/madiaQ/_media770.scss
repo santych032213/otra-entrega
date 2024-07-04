@@ -68,6 +68,21 @@
     }
     
     main{
+        .masc-flex{
+            display: flex;
+            margin-top: 100px;
+            margin-bottom: 150px;
+            .masc1-flex{
+                width: 50%;
+                height: 200px;
+                text-align: left;
+                @include flex(row, nowrap, flex-start, center, 1.25rem);
+                img{
+                    width: 12.5rem;
+                    height: 12.5rem;
+                }
+            }
+        }
         .titulos{
             h2{
             font-size: map-get($medidas, 48);
