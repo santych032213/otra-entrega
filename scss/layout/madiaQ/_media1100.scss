@@ -12,14 +12,10 @@
     }
     main{
         .masc-flex{
-            margin-right: 10px;
-        }
-    }
-    main{
-        .masc-flex{
             display: flex;
             margin-top: 100px;
             margin-bottom: 150px;
+            margin-right: 10px;
             .masc1-flex{
                 width: 50%;
                 height: 200px;
@@ -31,9 +27,149 @@
                 }
             }
         }
+        
+        .fem-Grid{
+            @include grid(100%, 20% 30% 20% 30%, repeat(3, 1fr));
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+        .item1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            align-self: center;
+            justify-self: center;
+            width: 300px;
+            height: 300px;
+        }
+        .item2{
+            order: 1;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
+        .item3{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            align-self: center;
+            justify-self: center;
+            width: 350px;
+            height: 350px;
+        }
+        .item4{
+            grid-column: 4/5;
+            grid-row: 1/2;
+            order: 1;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
+        .item5{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            align-self: center;
+            justify-self: center;
+            width: 300px;
+            height: 300px;
+        }
+        .item6{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            order: 1;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
+        .item7{
+            grid-column: 3/4;
+            grid-row: 2/3;
+            align-self: center;
+            justify-self: center;
+            width: 350px;
+            height: 350px;
+        }
+        .item8{
+            grid-column: 4/5;
+            grid-row: 2/3;
+            order: 1;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
+        .item9{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            align-self: center;
+            justify-self: center;
+            width: 300px;
+            height: 300px;
+        }
+        .item10{
+            grid-column: 2/3;
+            grid-row: 3/4;
+            order: 1;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
+        .item11{
+            grid-column: 3/4;
+            grid-row: 3/4;
+            align-self: center;
+            justify-self: center;
+            width: 350px;
+            height: 350px;
+        }
+        .item12{
+            grid-column: 4/5;
+            grid-row: 3/4;
+            order: 1;
+            h2{
+                font-size: map-get($medidas, lg);
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: map-get($medidas, m);
+            }
+            p{
+                font-size: map-get($medidas, sm);
+            }
+        }
     }
-
-
-
-
 }

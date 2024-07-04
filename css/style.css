@@ -290,12 +290,10 @@ p {
     height: 215px;
   }
   main .masc-flex {
-    margin-right: 10px;
-  }
-  main .masc-flex {
     display: flex;
     margin-top: 100px;
     margin-bottom: 150px;
+    margin-right: 10px;
   }
   main .masc-flex .masc1-flex {
     width: 50%;
@@ -311,6 +309,110 @@ p {
   main .masc-flex .masc1-flex img {
     width: 17.5rem;
     height: 17.5rem;
+  }
+  main .fem-Grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  main .item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+  }
+  main .item2 {
+    order: 1;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  main .item2 h2 {
+    margin-bottom: 10px;
+  }
+  main .item3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    width: 350px;
+    height: 350px;
+  }
+  main .item4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    order: 1;
+  }
+  main .item4 h2 {
+    margin-bottom: 10px;
+  }
+  main .item5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+  }
+  main .item6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    order: 1;
+  }
+  main .item6 h2 {
+    margin-bottom: 10px;
+  }
+  main .item7 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+    width: 350px;
+    height: 350px;
+  }
+  main .item8 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    order: 1;
+  }
+  main .item8 h2 {
+    margin-bottom: 10px;
+  }
+  main .item9 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+  }
+  main .item10 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    order: 1;
+  }
+  main .item10 h2 {
+    margin-bottom: 10px;
+  }
+  main .item11 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
+    width: 350px;
+    height: 350px;
+  }
+  main .item12 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    order: 1;
+  }
+  main .item12 h2 {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 996px) {
@@ -459,6 +561,80 @@ p {
   main p {
     font-size: 0.75rem;
   }
+  main .fem-Grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+  main .item1 {
+    width: 13.75rem;
+    height: 13.75rem;
+  }
+  main .item2 {
+    order: 1;
+    align-self: center;
+  }
+  main .item2 h2 {
+    margin-top: 0px;
+  }
+  main .item3 {
+    width: 16.25rem;
+    height: 16.25rem;
+  }
+  main .item4 {
+    order: 1;
+    align-self: center;
+  }
+  main .item4 h2 {
+    margin-top: 0px;
+  }
+  main .item5 {
+    width: 13.75rem;
+    height: 13.75rem;
+  }
+  main .item6 {
+    order: 1;
+    align-self: center;
+  }
+  main .item6 h2 {
+    margin-top: 0px;
+  }
+  main .item7 {
+    width: 16.25rem;
+    height: 16.25rem;
+  }
+  main .item8 {
+    order: 1;
+    align-self: center;
+  }
+  main .item8 h2 {
+    margin-top: 0px;
+  }
+  main .item9 {
+    width: 13.75rem;
+    height: 13.75rem;
+  }
+  main .item10 {
+    order: 1;
+    align-self: center;
+  }
+  main .item10 h2 {
+    margin-top: 0px;
+  }
+  main .item11 {
+    width: 16.25rem;
+    height: 16.25rem;
+  }
+  main .item12 {
+    order: 1;
+    align-self: center;
+  }
+  main .item12 h2 {
+    margin-top: 0px;
+  }
   header .navBar-1 {
     margin-bottom: 0px;
   }
@@ -515,7 +691,7 @@ p {
   }
   main .masc-flex {
     display: flex;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 180px;
   }
   main .masc-flex .masc1-flex {
@@ -544,6 +720,7 @@ p {
   main .tituloNovedades {
     font-size: 2rem;
     margin-top: 20px;
+    margin-bottom: 0.625rem;
   }
   main article {
     margin-bottom: 40px;
@@ -557,6 +734,74 @@ p {
   }
   main p {
     font-size: 0.625rem;
+  }
+  main .fem-Grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  main .item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 9.375rem;
+    height: 9.375rem;
+  }
+  main .item2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  main .item3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 11.25rem;
+    height: 11.25rem;
+  }
+  main .item4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  main .item5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 9.375rem;
+    height: 9.375rem;
+  }
+  main .item6 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  main .item7 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 11.25rem;
+    height: 11.25rem;
+  }
+  main .item8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  main .item9 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 9.375rem;
+    height: 9.375rem;
+  }
+  main .item10 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  main .item11 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 11.25rem;
+    height: 11.25rem;
+  }
+  main .item12 {
+    grid-column: 2/3;
+    grid-row: 6/7;
   }
   header .navBar-1 li {
     font-size: 14px;

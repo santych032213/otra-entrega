@@ -110,7 +110,86 @@
         p{
             font-size: map-get($medidas, 12);
         }
+        .fem-Grid{
+            @include grid(100%, 20% 30% 20% 30%, repeat(3, 1fr));
+            margin-top: 0px;
+            margin-bottom: 70px;
+        }
+        .item1{
+            width: 13.75rem;
+            height: 13.75rem;
+        }
+        .item2{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+        .item3{
+            width: 16.25rem;
+            height: 16.25rem;
+        }
+        .item4{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+        .item5{
+            width: 13.75rem;
+            height: 13.75rem;
+        }
+        .item6{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+        .item7{
+            width: 16.25rem;
+            height: 16.25rem;
+        }
+        .item8{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+        .item9{
+            width: 13.75rem;
+            height: 13.75rem;
+        }
+        .item10{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+        .item11{
+            width: 16.25rem;
+            height: 16.25rem;
+        }
+        .item12{
+            order: 1;
+            align-self: center;
+            h2{
+                margin-top: 0px;
+            }
+        }
+
+
+
+
+
+    
+    
     }
+
 header{
     .navBar-1{
         margin-bottom: 0px;

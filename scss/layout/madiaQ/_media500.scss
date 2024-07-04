@@ -60,7 +60,7 @@
     main{
         .masc-flex{
             display: flex;
-            margin-top: 0px;
+            margin-top: 20px;
             margin-bottom: 180px;
             .masc1-flex{
                 width: 50%;
@@ -86,6 +86,7 @@
         .tituloNovedades{
             font-size: map-get($medidas, 32);
             margin-top: 20px;
+            margin-bottom: .625rem;
         }
         article{
             margin-bottom: 40px;
@@ -100,7 +101,75 @@
         p{
             font-size: map-get($medidas, 10);
         }
+
+        .fem-Grid{
+            @include grid(100%, repeat(2, 1fr), repeat(6, 1fr));
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+        .item1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 9.375rem;
+            height: 9.375rem;
+        }
+        .item2{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .item3{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            width: 11.25rem;
+            height: 11.25rem;
+        }
+        .item4{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .item5{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            width: 9.375rem;
+            height: 9.375rem;
+        }
+        .item6{
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+        .item7{
+            grid-column: 2/3;
+            grid-row: 3/4;
+            width: 11.25rem;
+            height: 11.25rem;
+        }
+        .item8{
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+        .item9{
+            grid-column: 1/2;
+            grid-row: 5/6;
+            width: 9.375rem;
+            height: 9.375rem;
+        }
+        .item10{
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+        .item11{
+            grid-column: 2/3;
+            grid-row: 5/6;
+            width: 11.25rem;
+            height: 11.25rem;
+        }
+        .item12{
+            grid-column: 2/3;
+            grid-row: 6/7;
+        }
     }
+
+
     header{
         .navBar-1{
             li{
