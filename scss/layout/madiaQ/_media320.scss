@@ -101,7 +101,37 @@
         .bot-car{
             font-size: map-get($medidas, 4);
         }
+        .fem-Grid{
+            @include grid(100%, repeat(2, 1fr), 10% 23% 10% 23% 10% 23%);
+        }
+        .item1{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item3{
+            width: 8.75rem;
+            height: 8.75rem
+        }
+        .item5{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item7{
+            width: 8.75rem;
+            height: 8.75rem;
+        }
+        .item9{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item11{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+
+
     }
+
     header{
         .navBar-1{
             li{

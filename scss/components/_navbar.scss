@@ -3,8 +3,7 @@
     margin-top: 1.875rem;
     @include flex(row, nowrap, center, center, .625rem);
     li{
-        font-size: 16px;
-        padding-left: 0px;
+        font-size: map-get($medidas, 16);
         a{
         text-decoration: none;
         color: $color-letra;
@@ -20,12 +19,12 @@
     width: 100%;
     height: 240px;
     background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #9b9be5, #9b9be8, #9c9cec, #b491e9, #cd82df, #e672cf, #fb5fb7);
-    margin-top: 50px;
+    margin-top: 3.125rem;
     a{
-        border-radius: 8px;
+        border-radius: .5rem;
         img{
-        width: 30px;
-        height: 30px;
+        width: 1.875rem;
+        height: 1.875rem;
         }
     }
 }
