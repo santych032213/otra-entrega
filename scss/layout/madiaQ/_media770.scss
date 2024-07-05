@@ -2,17 +2,16 @@
     footer{
         .navBar-2{
             @include grid(100%, repeat (9, 1fr), 1fr 0.1fr 1fr 1fr 1fr 1fr);
-            height: 215px;
             .iframe1{
                 width: 100%;
-                height: 185px;
+                height: 11.5625rem;
                 grid-column: 1/5;
                 grid-row: 3/10;
                 justify-self: center;
             }
             .iframe2{
                 width: 100%;
-                height: 185px;
+                height: 11.5625rem;
                 grid-column: 6/10;
                 grid-row: 3/10;
                 justify-self: center;
@@ -51,16 +50,16 @@
         .logoWhatsapp{
             a{
                 img{
-                    width: 55px;
-                    height: 55px;
+                    width: 3.4375rem;
+                    height: 3.4375rem;
                 }
             }
         }
         .subir{
             a{
                 img{
-                    width: 50px;
-                    height: 50px;
+                    width: 3.125rem;
+                    height: 3.125rem;
                 }
             }
         }
@@ -69,14 +68,8 @@
     
     main{
         .masc-flex{
-            display: flex;
-            margin-top: 100px;
-            margin-bottom: 150px;
             .masc1-flex{
-                width: 50%;
-                height: 200px;
-                text-align: left;
-                @include flex(row, nowrap, flex-start, center, 1.25rem);
+                height: 12.5rem;
                 img{
                     width: 12.5rem;
                     height: 12.5rem;
@@ -113,14 +106,12 @@
         .fem-Grid{
             @include grid(100%, 20% 30% 20% 30%, repeat(3, 1fr));
             margin-top: 0px;
-            margin-bottom: 70px;
         }
         .item1{
             width: 13.75rem;
             height: 13.75rem;
         }
         .item2{
-            order: 1;
             align-self: center;
             h2{
                 margin-top: 0px;
@@ -132,7 +123,6 @@
         }
         .item4{
             order: 1;
-            align-self: center;
             h2{
                 margin-top: 0px;
             }
@@ -142,7 +132,6 @@
             height: 13.75rem;
         }
         .item6{
-            order: 1;
             align-self: center;
             h2{
                 margin-top: 0px;
@@ -153,7 +142,6 @@
             height: 16.25rem;
         }
         .item8{
-            order: 1;
             align-self: center;
             h2{
                 margin-top: 0px;
@@ -164,7 +152,6 @@
             height: 13.75rem;
         }
         .item10{
-            order: 1;
             align-self: center;
             h2{
                 margin-top: 0px;
@@ -175,19 +162,11 @@
             height: 16.25rem;
         }
         .item12{
-            order: 1;
             align-self: center;
             h2{
                 margin-top: 0px;
             }
         }
-
-
-
-
-
-    
-    
     }
 
 header{
