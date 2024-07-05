@@ -2,69 +2,39 @@
     footer{
         .navBar-2{
             @include grid(100%, repeat (7, 1fr), 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr);
-            height: 400px;
             .iframe1{
-                width: 320px;
-                height: 150px;
-                grid-column: 1/8;
-                grid-row: 3/6;
-                align-items: center;
+                width: 20rem;
+                height: 9.375rem;
             }
             .iframe2{
-                width: 320px;
-                height: 150px;
-                grid-column: 1/8;
-                grid-row: 7/10;
-                align-items: center;
-            }
-            .a1{
-                grid-column: 2/3;
-                grid-row: 1/2;
-            }
-            .a2{
-                grid-column: 3/4;
-                grid-row: 1/2;
-            }
-            .a3{
-                grid-column: 4/5;
-                grid-row: 1/2;
-            }
-            .a4{
-                grid-column: 5/6;
-                grid-row: 1/2;
-            }
-            .a5{
-                grid-column: 6/7;
-                grid-row: 1/2;
+                width: 20rem;
+                height: 9.375rem;
             }
         }
         .logoWhatsapp{
             a{
                 img{
-                    width: 40px;
-                    height: 40px;
+                    width: 2.5rem;
+                    height: 2.5rem;
                 }
             }
         }
         .subir{
             a{
                 img{
-                    width: 35px;
-                    height: 35px;
+                    width: 2.1875rem;
+                    height: 2.1875rem;
                 }
             }
         }
     }
     main{
         .masc-flex{
-            display: flex;
             margin-top: 0px;
-            margin-bottom: 170px;
+            margin-bottom: 10.625rem;
             .masc1-flex{
                 width: 50%;
-                height: 200px;
-                text-align: left;
-                @include flex(column, nowrap, flex-start, center, 1.25rem);
+                height: 12.5rem;
                 img{
                     width: 7.5rem;
                     height: 7.5rem;
@@ -77,26 +47,20 @@
             }
             h1{
                 font-size:map-get($medidas, 20);
-                margin-top: 20px;
-                margin-bottom: 15px;
             }
         }
         .tituloNovedades{
             font-size: map-get($medidas, 20);
-            margin-top: 20px;
-        }
-        article{
-            margin-bottom: 40px;
         }
         h2{ 
             font-size: map-get($medidas, 14);
-            margin-top: 5px;
+            margin-top: .3125rem;
         }
         h3{
-            font-size: map-get($medidas, 12);
+            font-size: map-get($medidas, 10);
         }
         p{
-            font-size: map-get($medidas, 10);
+            font-size: map-get($medidas, 8);
         }
         .bot-car{
             font-size: map-get($medidas, 4);

@@ -2,18 +2,18 @@
     footer{
         .navBar-2{
             @include grid(100%, repeat (7, 1fr), 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr);
-            height: 400px;
-            margin-top: 10px;
+            height: 25rem;
+            margin-top: 0px;
             .iframe1{
-                width: 375px;
-                height: 170px;
+                width: 23.4375rem;
+                height: 10.625rem;
                 grid-column: 1/8;
                 grid-row: 3/6;
                 align-items: center;
             }
             .iframe2{
-                width: 375px;
-                height: 170px;
+                width: 23.4375rem;
+                height: 10.625rem;
                 grid-column: 1/8;
                 grid-row: 7/10;
                 align-items: center;
@@ -42,16 +42,16 @@
         .logoWhatsapp{
             a{
                 img{
-                    width: 50px;
-                    height: 50px;
+                    width: 3.125rem;
+                    height: 3.125rem;
                 }
             }
         }
         .subir{
             a{
                 img{
-                    width: 45px;
-                    height: 45px;
+                    width: 2.8125rem;
+                    height: 2.8125rem;
                 }
             }
         }
@@ -60,12 +60,11 @@
 
     main{
         .masc-flex{
-            display: flex;
             margin-top: 20px;
-            margin-bottom: 180px;
+            margin-bottom: 11.25rem;
             .masc1-flex{
                 width: 50%;
-                height: 200px;
+                height: 15.625rem;
                 text-align: left;
                 @include flex(column, nowrap, flex-start, center, 1.25rem);
                 img{
@@ -80,21 +79,21 @@
             }
             h1{
                 font-size:map-get($medidas, 32);
-                margin-top: 20px;
-                margin-bottom: 15px;
+                margin-top: 1.25rem;
+                margin-bottom: .9375rem;
             }
         }
         .tituloNovedades{
             font-size: map-get($medidas, 32);
-            margin-top: 20px;
+            margin-top: 1.25rem;
             margin-bottom: 3.125rem;
         }
         article{
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
         }
         h2{ 
             font-size: map-get($medidas, 16);
-            margin-top: 20px;
+            margin-top: 1.25rem;
         }
         h3{
             font-size: map-get($medidas, 12);
@@ -102,10 +101,8 @@
         p{
             font-size: map-get($medidas, 10);
         }
-
         .fem-Grid{
             @include grid(100%, repeat(2, 1fr), 11% 22% 11% 22% 11% 22%);
-            margin-top: 0px;
             margin-bottom: 0px;
         }
         .item1{
@@ -113,7 +110,7 @@
             grid-row: 1/2;
             width: 9.375rem;
             height: 9.375rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item2{
             grid-column: 1/2;
@@ -126,7 +123,7 @@
             grid-row: 1/2;
             width: 11.25rem;
             height: 11.25rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item4{
             grid-column: 2/3;
@@ -139,7 +136,7 @@
             grid-row: 3/4;
             width: 9.375rem;
             height: 9.375rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item6{
             grid-column: 1/2;
@@ -152,7 +149,7 @@
             grid-row: 3/4;
             width: 11.25rem;
             height: 11.25rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item8{
             grid-column: 2/3;
@@ -165,7 +162,7 @@
             grid-row: 5/6;
             width: 9.375rem;
             height: 9.375rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item10{
             grid-column: 1/2;
@@ -177,7 +174,7 @@
             grid-row: 5/6;
             width: 9.375rem;
             height: 9.375rem;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
         }
         .item12{
             grid-column: 2/3;

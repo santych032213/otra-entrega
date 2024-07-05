@@ -82,20 +82,20 @@
             }
             h1{
                 font-size:map-get($medidas, 48);
-                margin-top: 30px;
-                margin-bottom: 20px;
+                margin-top: 1.875rem;
+                margin-bottom: 1.25rem;
             }
         }
         .tituloNovedades{
             font-size: map-get($medidas, 48);
-            margin-top: 30px;
+            margin-top: 1.875rem;
         }
         article{
-            margin-bottom: 50px;
+            margin-bottom: 3.125rem;
         }
         h2{
             font-size: map-get($medidas, 20);
-            margin-top: 30px;
+            margin-top: 1.875rem;
         }
         h3{
             font-size: map-get($medidas, 16);
