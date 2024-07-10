@@ -114,13 +114,6 @@ p {
 
 .navBar-1 {
   list-style: none;
-  margin-top: 1.875rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
 }
 .navBar-1 li {
   font-size: 1rem;

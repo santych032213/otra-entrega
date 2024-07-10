@@ -1,7 +1,5 @@
 .navBar-1{
     list-style: none;
-    margin-top: 1.875rem;
-    @include flex(row, nowrap, center, center, .625rem);
     li{
         font-size: map-get($medidas, 16);
         a{
