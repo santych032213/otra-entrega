@@ -101,6 +101,9 @@
             li{
                 font-size: map-get($medidas, 10);
             }
+            .navbar-brand{
+                font-size: map-get($medidas, 16);
+            }
         }
     }
 }

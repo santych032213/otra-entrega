@@ -1,5 +1,12 @@
 .navBar-1{
     list-style: none;
+    .navbar-brand{
+        margin-right: 4.5rem;
+        color: map-get($colores, color2);
+        font-size: map-get($medidas, 24);
+        font-family: font-h2;
+        font-weight: bold;
+        }
     li{
         font-size: map-get($medidas, 16);
         a{

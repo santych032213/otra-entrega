@@ -115,6 +115,13 @@ p {
 .navBar-1 {
   list-style: none;
 }
+.navBar-1 .navbar-brand {
+  margin-right: 4.5rem;
+  color: darkgreen;
+  font-size: 1.5rem;
+  font-family: font-h2;
+  font-weight: bold;
+}
 .navBar-1 li {
   font-size: 1rem;
 }
@@ -389,7 +396,7 @@ p {
     align-self: flex-end;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 48.125rem) {
   footer .navBar-2 {
     display: grid;
     width: 100%;
@@ -733,6 +740,9 @@ p {
   header .navBar-1 li {
     font-size: 14px;
   }
+  header .navBar-1 .navbar-brand {
+    font-size: 1.25rem;
+  }
 }
 @media (max-width: 320px) {
   footer .navBar-2 {
@@ -823,6 +833,9 @@ p {
   }
   header .navBar-1 li {
     font-size: 0.625rem;
+  }
+  header .navBar-1 .navbar-brand {
+    font-size: 1rem;
   }
 }
 

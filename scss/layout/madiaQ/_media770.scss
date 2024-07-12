@@ -1,4 +1,4 @@
-@media(max-width:770px){
+@media(max-width:48.125rem){
     footer{
         .navBar-2{
             @include grid(100%, repeat (9, 1fr), 1fr 0.1fr 1fr 1fr 1fr 1fr);
