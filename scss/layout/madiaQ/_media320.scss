@@ -1,14 +1,18 @@
 @media(max-width:320px){
     footer{
         .navBar-2{
-            @include grid(100%, repeat (7, 1fr), 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr);
+            @include grid(100%, 25% 10% 10% 10% 10% 10% 25%, 2.5rem 10.9375rem .625rem 10.9375rem);
             .iframe1{
-                width: 20rem;
-                height: 9.375rem;
+                img{
+                    width: 300px;
+                    height: 100%;
+                }
             }
             .iframe2{
-                width: 20rem;
-                height: 9.375rem;
+                img{
+                    width: 300px;
+                    height: 100%;
+                }
             }
         }
         .logoWhatsapp{

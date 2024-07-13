@@ -137,7 +137,7 @@ p {
 .navBar-2 {
   text-align: center;
   width: 100%;
-  height: 240px;
+  height: 14.8125rem;
   background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #9b9be5, #9b9be8, #9c9cec, #b491e9, #cd82df, #e672cf, #fb5fb7);
   margin-top: 3.125rem;
 }
@@ -147,6 +147,14 @@ p {
 .navBar-2 a img {
   width: 1.875rem;
   height: 1.875rem;
+}
+.navBar-2 .iframe1 img {
+  width: 26.25rem;
+  height: 14.8125rem;
+}
+.navBar-2 .iframe2 img {
+  width: 26.25rem;
+  height: 14.8125rem;
 }
 
 .masc-flex {
@@ -268,7 +276,11 @@ p {
     height: 13.4375rem;
     align-items: center;
   }
-  footer .navBar-2 iframe {
+  footer .navBar-2 .iframe1 img {
+    width: 25rem;
+    height: 13.4375rem;
+  }
+  footer .navBar-2 .iframe2 img {
     width: 25rem;
     height: 13.4375rem;
   }
@@ -361,91 +373,86 @@ p {
     width: 100%;
     grid-template-columns: repeat 11, 1fr;
     grid-template-rows: 1fr;
-    height: 13.4375rem;
-    align-items: center;
     justify-self: center;
   }
   footer .navBar-2 .iframe1 {
-    width: 100%;
+    width: 25rem;
     height: 13.4375rem;
     grid-column: 1/4;
   }
   footer .navBar-2 .iframe2 {
-    width: 100%;
+    width: 25rem;
     height: 13.4375rem;
     grid-column: 9/12;
   }
   footer .navBar-2 .a1 {
     grid-column: 4/5;
-    align-self: flex-end;
+    align-self: center;
   }
   footer .navBar-2 .a2 {
     grid-column: 5/6;
-    align-self: flex-end;
+    align-self: center;
   }
   footer .navBar-2 .a3 {
     grid-column: 6/7;
-    align-self: flex-end;
+    align-self: center;
   }
   footer .navBar-2 .a4 {
     grid-column: 7/8;
-    align-self: flex-end;
+    align-self: center;
   }
   footer .navBar-2 .a5 {
     grid-column: 8/9;
-    align-self: flex-end;
+    align-self: center;
   }
 }
 @media (max-width: 48.125rem) {
   footer .navBar-2 {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat 9, 1fr;
-    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 35% 6% 6% 6% 6% 6% 35%;
+    grid-template-rows: repeat 6, 1fr;
+    height: 14.6875rem;
   }
   footer .navBar-2 .iframe1 {
+    grid-column: 1/4;
+    grid-row: 2/7;
     width: 100%;
-    height: 11.5625rem;
-    grid-column: 1/5;
-    grid-row: 3/10;
-    justify-self: center;
+    height: 100%;
+  }
+  footer .navBar-2 .iframe1 img {
+    width: 100%;
+    height: 100%;
   }
   footer .navBar-2 .iframe2 {
+    grid-column: 5/8;
+    grid-row: 2/7;
     width: 100%;
-    height: 11.5625rem;
-    grid-column: 6/10;
-    grid-row: 3/10;
-    justify-self: center;
+    height: 100%;
+  }
+  footer .navBar-2 .iframe2 img {
+    width: 100%;
+    height: 100%;
   }
   footer .navBar-2 .a1 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
   }
   footer .navBar-2 .a2 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
   }
   footer .navBar-2 .a3 {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
   }
   footer .navBar-2 .a4 {
-    grid-column: 6/7;
+    grid-column: 5/6;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
   }
   footer .navBar-2 .a5 {
-    grid-column: 7/8;
+    grid-column: 6/7;
     grid-row: 1/2;
-    align-self: center;
-    justify-self: center;
   }
   footer .logoWhatsapp a img {
     width: 3.4375rem;
@@ -558,28 +565,34 @@ p {
     margin-bottom: 0px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   footer .navBar-2 {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat 7, 1fr;
-    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-columns: 30% 8% 8% 8% 8% 8% 30%;
+    grid-template-rows: 2.5rem 10.9375rem 0.625rem 10.9375rem;
     height: 25rem;
     margin-top: 0px;
   }
   footer .navBar-2 .iframe1 {
-    width: 23.4375rem;
-    height: 10.625rem;
     grid-column: 1/8;
-    grid-row: 3/6;
-    align-items: center;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+  }
+  footer .navBar-2 .iframe1 img {
+    width: 20.0625rem;
+    height: 100%;
   }
   footer .navBar-2 .iframe2 {
-    width: 23.4375rem;
-    height: 10.625rem;
     grid-column: 1/8;
-    grid-row: 7/10;
-    align-items: center;
+    grid-row: 4/5;
+    width: 100%;
+    height: 100%;
+  }
+  footer .navBar-2 .iframe2 img {
+    width: 20.0625rem;
+    height: 100%;
   }
   footer .navBar-2 .a1 {
     grid-column: 2/3;
@@ -610,7 +623,7 @@ p {
     height: 2.8125rem;
   }
   main .masc-flex {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     margin-bottom: 11.25rem;
   }
   main .masc-flex .masc1-flex {
@@ -748,16 +761,16 @@ p {
   footer .navBar-2 {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat 7, 1fr;
-    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-columns: 25% 10% 10% 10% 10% 10% 25%;
+    grid-template-rows: 2.5rem 10.9375rem 0.625rem 10.9375rem;
   }
-  footer .navBar-2 .iframe1 {
-    width: 20rem;
-    height: 9.375rem;
+  footer .navBar-2 .iframe1 img {
+    width: 300px;
+    height: 100%;
   }
-  footer .navBar-2 .iframe2 {
-    width: 20rem;
-    height: 9.375rem;
+  footer .navBar-2 .iframe2 img {
+    width: 300px;
+    height: 100%;
   }
   footer .logoWhatsapp a img {
     width: 2.5rem;
